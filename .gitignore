@@ -1,0 +1,45 @@
+# Java / Maven
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+backend/target/
+target/
+hs_err_pid*
+replay_pid*
+
+# Node / frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/.vite-tmp/
+dist/
+.vite-tmp/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (never commit real secrets)
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and temporary files
+*.log
+.tmp/
+wip/
+*.ctxt
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+Thumbs.db
+.DS_Store
